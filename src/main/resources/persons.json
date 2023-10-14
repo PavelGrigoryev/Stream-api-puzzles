@@ -1,0 +1,1718 @@
+[
+  {
+    "name": "Grace",
+    "age": 59,
+    "weight": 70.6,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375251082444"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375440072559"
+      }
+    ]
+  },
+  {
+    "name": "Walter",
+    "age": 65,
+    "weight": 107.2,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375295176272"
+      }
+    ]
+  },
+  {
+    "name": "Charlie",
+    "age": 47,
+    "weight": 58.1,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375291646072"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375290626184"
+      }
+    ]
+  },
+  {
+    "name": "David",
+    "age": 59,
+    "weight": 47.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375293472589"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375299419432"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375251094305"
+      }
+    ]
+  },
+  {
+    "name": "Iris",
+    "age": 30,
+    "weight": 98.4,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375295335889"
+      },
+      {
+        "operator": "A1",
+        "number": "+375444236940"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 60,
+    "weight": 99.9,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375336198557"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375297653201"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375250392819"
+      }
+    ]
+  },
+  {
+    "name": "Sara",
+    "age": 56,
+    "weight": 106.3,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375255982973"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375330800567"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375448741316"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "age": 41,
+    "weight": 79.9,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375299079662"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375335812285"
+      }
+    ]
+  },
+  {
+    "name": "Frank",
+    "age": 45,
+    "weight": 84.2,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375293980548"
+      },
+      {
+        "operator": "A1",
+        "number": "+375339094491"
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "age": 22,
+    "weight": 90.0,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375256273262"
+      }
+    ]
+  },
+  {
+    "name": "Charlie",
+    "age": 45,
+    "weight": 69.7,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375449307251"
+      }
+    ]
+  },
+  {
+    "name": "Grace",
+    "age": 47,
+    "weight": 102.0,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375440183178"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375330293621"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375257181601"
+      }
+    ]
+  },
+  {
+    "name": "Alex",
+    "age": 40,
+    "weight": 76.8,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375441330034"
+      }
+    ]
+  },
+  {
+    "name": "Sam",
+    "age": 51,
+    "weight": 40.8,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375337089692"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375258645861"
+      },
+      {
+        "operator": "A1",
+        "number": "+375445740516"
+      }
+    ]
+  },
+  {
+    "name": "Sara",
+    "age": 51,
+    "weight": 46.7,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375441379716"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 24,
+    "weight": 98.8,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375294418141"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 24,
+    "weight": 83.1,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375259934763"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375293638529"
+      },
+      {
+        "operator": "A1",
+        "number": "+375440553074"
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "age": 55,
+    "weight": 69.0,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375299489686"
+      },
+      {
+        "operator": "A1",
+        "number": "+375295806443"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 27,
+    "weight": 59.3,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375447733729"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375448843159"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375445039889"
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "age": 63,
+    "weight": 72.3,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375334357670"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375333622069"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375292347291"
+      }
+    ]
+  },
+  {
+    "name": "Sara",
+    "age": 47,
+    "weight": 108.6,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375296304558"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375255660733"
+      },
+      {
+        "operator": "A1",
+        "number": "+375335629468"
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "age": 30,
+    "weight": 78.8,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375339952812"
+      },
+      {
+        "operator": "A1",
+        "number": "+375296734267"
+      },
+      {
+        "operator": "A1",
+        "number": "+375292924809"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 48,
+    "weight": 73.3,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375444054451"
+      },
+      {
+        "operator": "A1",
+        "number": "+375258838223"
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "age": 22,
+    "weight": 84.9,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375254143100"
+      },
+      {
+        "operator": "A1",
+        "number": "+375250166028"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375299450935"
+      }
+    ]
+  },
+  {
+    "name": "Iris",
+    "age": 38,
+    "weight": 119.9,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375336741522"
+      }
+    ]
+  },
+  {
+    "name": "Britney",
+    "age": 26,
+    "weight": 55.9,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375446497431"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375253714944"
+      },
+      {
+        "operator": "A1",
+        "number": "+375294811024"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 30,
+    "weight": 66.8,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375441259440"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375447289669"
+      }
+    ]
+  },
+  {
+    "name": "Britney",
+    "age": 23,
+    "weight": 61.8,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375255037943"
+      },
+      {
+        "operator": "A1",
+        "number": "+375291126097"
+      },
+      {
+        "operator": "A1",
+        "number": "+375330933379"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 32,
+    "weight": 115.8,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375443752152"
+      },
+      {
+        "operator": "A1",
+        "number": "+375255991024"
+      },
+      {
+        "operator": "A1",
+        "number": "+375254690991"
+      }
+    ]
+  },
+  {
+    "name": "Grace",
+    "age": 23,
+    "weight": 49.1,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375336966115"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375297311277"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375443372762"
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "age": 21,
+    "weight": 102.3,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375448311805"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375259308297"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375252392609"
+      }
+    ]
+  },
+  {
+    "name": "Anastasia",
+    "age": 32,
+    "weight": 82.9,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375443194282"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375258010230"
+      },
+      {
+        "operator": "A1",
+        "number": "+375445847300"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 27,
+    "weight": 69.9,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375330656390"
+      },
+      {
+        "operator": "A1",
+        "number": "+375445310217"
+      }
+    ]
+  },
+  {
+    "name": "Jessica",
+    "age": 37,
+    "weight": 51.1,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375291772031"
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "age": 53,
+    "weight": 90.2,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375251693392"
+      },
+      {
+        "operator": "A1",
+        "number": "+375259718242"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "age": 31,
+    "weight": 109.2,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375256865787"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375250203338"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375296847419"
+      }
+    ]
+  },
+  {
+    "name": "Jessica",
+    "age": 20,
+    "weight": 103.9,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375251911929"
+      }
+    ]
+  },
+  {
+    "name": "Charlie",
+    "age": 33,
+    "weight": 108.4,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375296668089"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375293975234"
+      },
+      {
+        "operator": "A1",
+        "number": "+375447778823"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 26,
+    "weight": 90.9,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375332184087"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 21,
+    "weight": 68.7,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375296395258"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375331045935"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375297947888"
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "age": 59,
+    "weight": 115.8,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375339876277"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375290825492"
+      },
+      {
+        "operator": "A1",
+        "number": "+375335763328"
+      }
+    ]
+  },
+  {
+    "name": "David",
+    "age": 28,
+    "weight": 77.7,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375293691092"
+      },
+      {
+        "operator": "A1",
+        "number": "+375330183812"
+      }
+    ]
+  },
+  {
+    "name": "Emma",
+    "age": 30,
+    "weight": 79.9,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375440378822"
+      },
+      {
+        "operator": "A1",
+        "number": "+375449126598"
+      }
+    ]
+  },
+  {
+    "name": "John",
+    "age": 31,
+    "weight": 66.6,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375257087598"
+      },
+      {
+        "operator": "A1",
+        "number": "+375441293146"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 24,
+    "weight": 54.0,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375293184768"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375446395789"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375252781062"
+      }
+    ]
+  },
+  {
+    "name": "Grace",
+    "age": 32,
+    "weight": 51.7,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375290272716"
+      },
+      {
+        "operator": "A1",
+        "number": "+375448745898"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375297067393"
+      }
+    ]
+  },
+  {
+    "name": "Grace",
+    "age": 63,
+    "weight": 77.9,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375449656500"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375299376463"
+      },
+      {
+        "operator": "A1",
+        "number": "+375256901416"
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "age": 33,
+    "weight": 119.6,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375256539342"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375337229187"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375447862627"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 59,
+    "weight": 97.8,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375250185643"
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "age": 49,
+    "weight": 46.6,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375297479092"
+      },
+      {
+        "operator": "A1",
+        "number": "+375446836272"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375290349841"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 61,
+    "weight": 118.6,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375334826057"
+      },
+      {
+        "operator": "A1",
+        "number": "+375290955277"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375449068972"
+      }
+    ]
+  },
+  {
+    "name": "Sam",
+    "age": 24,
+    "weight": 41.6,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375449398604"
+      }
+    ]
+  },
+  {
+    "name": "Frank",
+    "age": 65,
+    "weight": 100.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375254030306"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375255369289"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375336654319"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 53,
+    "weight": 78.0,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375256332847"
+      },
+      {
+        "operator": "A1",
+        "number": "+375336499524"
+      }
+    ]
+  },
+  {
+    "name": "Iris",
+    "age": 24,
+    "weight": 43.8,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375295276164"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375294856630"
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "age": 58,
+    "weight": 92.3,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375444673118"
+      }
+    ]
+  },
+  {
+    "name": "Iris",
+    "age": 34,
+    "weight": 71.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375252531349"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375294792419"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375446254525"
+      }
+    ]
+  },
+  {
+    "name": "Alex",
+    "age": 65,
+    "weight": 51.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375293366280"
+      }
+    ]
+  },
+  {
+    "name": "Sara",
+    "age": 65,
+    "weight": 44.8,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375334841200"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375445772612"
+      }
+    ]
+  },
+  {
+    "name": "John",
+    "age": 54,
+    "weight": 94.8,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375443107499"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375330641637"
+      },
+      {
+        "operator": "A1",
+        "number": "+375445894042"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "age": 61,
+    "weight": 75.4,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375441603968"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375254510352"
+      }
+    ]
+  },
+  {
+    "name": "David",
+    "age": 38,
+    "weight": 61.8,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375294764453"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375296799942"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375259202004"
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "age": 35,
+    "weight": 49.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375259578866"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375339293331"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "age": 55,
+    "weight": 106.7,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375255817098"
+      },
+      {
+        "operator": "A1",
+        "number": "+375250053473"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375252166970"
+      }
+    ]
+  },
+  {
+    "name": "John",
+    "age": 21,
+    "weight": 78.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375254066636"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375338434562"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375290316214"
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "age": 36,
+    "weight": 90.3,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375338139027"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375292867019"
+      },
+      {
+        "operator": "A1",
+        "number": "+375295406847"
+      }
+    ]
+  },
+  {
+    "name": "John",
+    "age": 26,
+    "weight": 116.1,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375257574820"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375442880963"
+      },
+      {
+        "operator": "A1",
+        "number": "+375290534959"
+      }
+    ]
+  },
+  {
+    "name": "Alex",
+    "age": 33,
+    "weight": 49.7,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375251743665"
+      }
+    ]
+  },
+  {
+    "name": "Walter",
+    "age": 36,
+    "weight": 104.2,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375299155231"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375295617018"
+      },
+      {
+        "operator": "A1",
+        "number": "+375298797910"
+      }
+    ]
+  },
+  {
+    "name": "Anastasia",
+    "age": 22,
+    "weight": 40.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375441634041"
+      },
+      {
+        "operator": "A1",
+        "number": "+375296488132"
+      }
+    ]
+  },
+  {
+    "name": "Frank",
+    "age": 26,
+    "weight": 106.3,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375290250695"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375252449057"
+      }
+    ]
+  },
+  {
+    "name": "Charlie",
+    "age": 36,
+    "weight": 104.6,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375448237942"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375258341751"
+      }
+    ]
+  },
+  {
+    "name": "Jessica",
+    "age": 32,
+    "weight": 106.3,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375295133219"
+      },
+      {
+        "operator": "A1",
+        "number": "+375291827347"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375442139590"
+      }
+    ]
+  },
+  {
+    "name": "David",
+    "age": 31,
+    "weight": 61.8,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375251844412"
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "age": 59,
+    "weight": 107.6,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375338584829"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375294242547"
+      }
+    ]
+  },
+  {
+    "name": "Frank",
+    "age": 56,
+    "weight": 84.3,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375257134341"
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "age": 57,
+    "weight": 60.3,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375258018840"
+      }
+    ]
+  },
+  {
+    "name": "Henry",
+    "age": 28,
+    "weight": 73.1,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375293079053"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375295430180"
+      }
+    ]
+  },
+  {
+    "name": "John",
+    "age": 65,
+    "weight": 88.7,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375336104834"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375443849432"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375442392704"
+      }
+    ]
+  },
+  {
+    "name": "Anastasia",
+    "age": 60,
+    "weight": 92.7,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375292748104"
+      },
+      {
+        "operator": "A1",
+        "number": "+375259543426"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375257736440"
+      }
+    ]
+  },
+  {
+    "name": "Iris",
+    "age": 29,
+    "weight": 66.3,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375339927413"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375334339477"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375331894730"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "age": 20,
+    "weight": 101.0,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375447279356"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375441302084"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375297131828"
+      }
+    ]
+  },
+  {
+    "name": "Emma",
+    "age": 30,
+    "weight": 107.3,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375336223991"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375448413935"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375254150616"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 49,
+    "weight": 43.4,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375448114549"
+      },
+      {
+        "operator": "A1",
+        "number": "+375292603491"
+      }
+    ]
+  },
+  {
+    "name": "Britney",
+    "age": 56,
+    "weight": 90.8,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375441719948"
+      },
+      {
+        "operator": "A1",
+        "number": "+375447110363"
+      }
+    ]
+  },
+  {
+    "name": "Sara",
+    "age": 38,
+    "weight": 50.0,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375255625886"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375442668888"
+      }
+    ]
+  },
+  {
+    "name": "Grace",
+    "age": 64,
+    "weight": 67.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375294937023"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375333466085"
+      }
+    ]
+  },
+  {
+    "name": "Jack",
+    "age": 64,
+    "weight": 47.0,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375335172138"
+      }
+    ]
+  },
+  {
+    "name": "George",
+    "age": 26,
+    "weight": 43.4,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375295428519"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375337923324"
+      },
+      {
+        "operator": "A1",
+        "number": "+375294990118"
+      }
+    ]
+  },
+  {
+    "name": "Alex",
+    "age": 41,
+    "weight": 69.3,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375330564876"
+      },
+      {
+        "operator": "A1",
+        "number": "+375338033464"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375252843656"
+      }
+    ]
+  },
+  {
+    "name": "Bob",
+    "age": 31,
+    "weight": 46.2,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375443979169"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375446244308"
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "age": 63,
+    "weight": 83.0,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375255327583"
+      }
+    ]
+  },
+  {
+    "name": "Emma",
+    "age": 36,
+    "weight": 81.5,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375336727170"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375443174612"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375333833469"
+      }
+    ]
+  },
+  {
+    "name": "Anastasia",
+    "age": 31,
+    "weight": 99.9,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375296049631"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375338457579"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375292900065"
+      }
+    ]
+  },
+  {
+    "name": "Grace",
+    "age": 49,
+    "weight": 51.3,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "MTS",
+        "number": "+375331376902"
+      },
+      {
+        "operator": "A1",
+        "number": "+375298823176"
+      },
+      {
+        "operator": "A1",
+        "number": "+375338801194"
+      }
+    ]
+  },
+  {
+    "name": "Alex",
+    "age": 60,
+    "weight": 94.6,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375338063816"
+      },
+      {
+        "operator": "A1",
+        "number": "+375447722089"
+      }
+    ]
+  },
+  {
+    "name": "Frank",
+    "age": 52,
+    "weight": 76.9,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375443745150"
+      },
+      {
+        "operator": "A1",
+        "number": "+375447163916"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375295806431"
+      }
+    ]
+  },
+  {
+    "name": "Walter",
+    "age": 52,
+    "weight": 111.3,
+    "gender": "NON_BINARY",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375331817879"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375445030029"
+      },
+      {
+        "operator": "MTS",
+        "number": "+375254279530"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 55,
+    "weight": 61.4,
+    "gender": "MALE",
+    "phones": [
+      {
+        "operator": "LIFE",
+        "number": "+375291512880"
+      }
+    ]
+  },
+  {
+    "name": "Peter",
+    "age": 33,
+    "weight": 59.0,
+    "gender": "FEMALE",
+    "phones": [
+      {
+        "operator": "A1",
+        "number": "+375333070141"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375299998332"
+      },
+      {
+        "operator": "LIFE",
+        "number": "+375443148264"
+      }
+    ]
+  }
+]
