@@ -2,6 +2,7 @@ package ru.clevertec.streamapipuzzles;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import ru.clevertec.streamapipuzzles.model.Gender;
 import ru.clevertec.streamapipuzzles.model.Operator;
 import ru.clevertec.streamapipuzzles.model.Person;
 import ru.clevertec.streamapipuzzles.model.Phone;
@@ -44,6 +45,9 @@ public class Main {
         task14();
         task15();
         task16();
+        mineTask17(persons);
+        mineTask18(persons);
+        mineTask19(persons);
     }
 
     /**
@@ -108,7 +112,7 @@ public class Main {
     private static void task6(List<Person> persons) {
         persons.stream()
                 .collect(Collectors.groupingBy(Person::getGender))
-                .forEach((k, v) -> log.info(k + ":\n" + v));
+                .forEach((k, v) -> log.info("{}:\n {}", k, v));
     }
 
     /**
@@ -144,7 +148,7 @@ public class Main {
         persons.stream()
                 .mapToDouble(Person::getWeight)
                 .average()
-                .ifPresent(avg -> log.info("Average weight of persons = " + avg));
+                .ifPresent(avg -> log.info("Average weight of persons = {}", avg));
     }
 
     /**
@@ -153,7 +157,7 @@ public class Main {
     private static void task10(List<Person> persons) {
         persons.stream()
                 .min(Comparator.comparing(Person::getAge))
-                .ifPresent(person -> log.info("Youngest by age is " + person));
+                .ifPresent(person -> log.info("Youngest by age is {}", person));
     }
 
     /**
@@ -165,7 +169,7 @@ public class Main {
                 .flatMap(person -> person.getPhones().stream())
                 .collect(Collectors.groupingBy(Phone::getOperator,
                         Collectors.mapping(Phone::getNumber, Collectors.toList())))
-                .forEach((k, v) -> log.info(k + ":\n" + v));
+                .forEach((k, v) -> log.info("{}:\n {}", k, v));
     }
 
     /**
@@ -174,7 +178,7 @@ public class Main {
     private static void task12(List<Person> persons) {
         persons.stream()
                 .collect(Collectors.groupingBy(Person::getGender, Collectors.counting()))
-                .forEach((k, v) -> log.info(k + ": " + v));
+                .forEach((k, v) -> log.info("{}: {}", k, v));
     }
 
     /**
@@ -187,7 +191,7 @@ public class Main {
         lines.flatMap(s -> Arrays.stream(s.split("\\P{L}+")))
                 .map(String::toLowerCase)
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()))
-                .forEach((k, v) -> log.info(k + ": " + v));
+                .forEach((k, v) -> log.info("{}: {}", k, v));
         lines.close();
     }
 
@@ -207,7 +211,7 @@ public class Main {
                 .stream()
                 .map(entry -> ChronoUnit.DAYS.between(entry.getKey(), entry.getValue()))
                 .findFirst()
-                .ifPresent(daysBetween -> log.info("Number of days between = " + daysBetween));
+                .ifPresent(daysBetween -> log.info("Number of days between = {}", daysBetween));
     }
 
     /**
@@ -220,7 +224,7 @@ public class Main {
                 .filter(s -> s.matches("\\d+(\\.\\d+)?"))
                 .mapToDouble(Double::parseDouble)
                 .average()
-                .ifPresent(avg -> log.info("Average value = " + avg));
+                .ifPresent(avg -> log.info("Average value = {}", avg));
     }
 
     /**
@@ -233,7 +237,48 @@ public class Main {
                         .parallel()
                         .unordered()
                         .sum()).get();
-        log.info("Sum = " + sum);
+        log.info("Sum = {}", sum);
+    }
+
+    /**
+     * 17. Найти средний вес женщин, чьи имена начинаются на букву A и которые имеют номер телефона оператора MTS.
+     */
+    private static void mineTask17(List<Person> persons) {
+        persons.stream()
+                .filter(person -> person.getGender() == Gender.FEMALE)
+                .filter(person -> person.getName().startsWith("A"))
+                .filter(person -> person.getPhones()
+                        .stream()
+                        .anyMatch(phone -> phone.getOperator() == Operator.MTS))
+                .mapToDouble(Person::getWeight)
+                .average()
+                .ifPresent(avg -> log.info("Average weight of women: {}", avg));
+    }
+
+    /**
+     * 18. Найти самого тяжёлого человека среди тех, кто старше 25 лет и имеет номер телефона оператора LIFE,
+     * и вывести его имя и вес.
+     */
+    private static void mineTask18(List<Person> persons) {
+        persons.stream()
+                .dropWhile(person -> person.getAge() <= 25)
+                .filter(person -> person.getPhones()
+                        .stream()
+                        .anyMatch(phone -> phone.getOperator() == Operator.LIFE))
+                .max(Comparator.comparingDouble(Person::getWeight))
+                .ifPresent(person -> log.info("The heaviest man: {}", person));
+    }
+
+    /**
+     * 19. Найти самое длинное и самое короткое имя среди людей, чей вес больше 70 кг, и вывести их в консоль.
+     */
+    private static void mineTask19(List<Person> persons) {
+        persons.stream()
+                .filter(person -> person.getWeight() > 70)
+                .map(Person::getName)
+                .sorted(Comparator.comparingInt(String::length))
+                .collect(new FirstAndLastElementCollector<>())
+                .forEach((k, v) -> log.info("The shortest name: {}\nThe longest name: {}", k, v));
     }
 
 }
