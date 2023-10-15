@@ -10,6 +10,15 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    gsonVersion = '2.10.1'
+    slf4jVersion = '2.0.7'
+    logbackVersion = '1.4.11'
+}
+
 dependencies {
-    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation "com.google.code.gson:gson:$gsonVersion"
+    implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+    implementation "ch.qos.logback:logback-core:${logbackVersion}"
+    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
 }

@@ -19,6 +19,10 @@ public class RandomPersonGenerator {
     private final String[] OPERATOR_CODES = {"33", "29", "44", "25"};
     private final SecureRandom SECURE_RANDOM = new SecureRandom();
 
+    /**
+     * Возраст от 18 до 65
+     * Вес от 40.0 до 120.0
+     */
     public Person generateRandomPerson() {
         return Person.builder()
                 .name(NAMES[SECURE_RANDOM.nextInt(NAMES.length)])
