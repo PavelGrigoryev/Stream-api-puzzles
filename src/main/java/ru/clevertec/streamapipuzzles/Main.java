@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import ru.clevertec.streamapipuzzles.model.Operator;
 import ru.clevertec.streamapipuzzles.model.Person;
 import ru.clevertec.streamapipuzzles.model.Phone;
+import ru.clevertec.streamapipuzzles.util.FirstAndLastElementCollector;
 import ru.clevertec.streamapipuzzles.util.PersonToJsonConverter;
 
 import java.nio.file.Files;
@@ -200,10 +201,12 @@ public class Main {
                 LocalDate.of(2023, Month.SEPTEMBER, 17),
                 LocalDate.of(2023, Month.JULY, 5));
         localDates.stream()
-                .min(Comparator.naturalOrder())
-                .map(firstDate -> ChronoUnit.DAYS.between(firstDate, localDates.stream()
-                        .max(Comparator.naturalOrder())
-                        .orElse(null)))
+                .sorted(Comparator.naturalOrder())
+                .collect(new FirstAndLastElementCollector<>())
+                .entrySet()
+                .stream()
+                .map(entry -> ChronoUnit.DAYS.between(entry.getKey(), entry.getValue()))
+                .findFirst()
                 .ifPresent(daysBetween -> log.info("Number of days between = " + daysBetween));
     }
 
