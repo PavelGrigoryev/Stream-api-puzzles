@@ -261,12 +261,12 @@ public class Main {
      */
     private static void mineTask18(List<Person> persons) {
         persons.stream()
-                .dropWhile(person -> person.getAge() <= 25)
+                .filter(person -> person.getAge() > 25)
                 .filter(person -> person.getPhones()
                         .stream()
                         .anyMatch(phone -> phone.getOperator() == Operator.LIFE))
                 .max(Comparator.comparingDouble(Person::getWeight))
-                .ifPresent(person -> log.info("The heaviest man: {}", person));
+                .ifPresent(person -> log.info("The heaviest person: {}", person));
     }
 
     /**
