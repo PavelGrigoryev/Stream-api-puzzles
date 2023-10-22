@@ -20,6 +20,7 @@ import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -247,9 +248,7 @@ public class Main {
         persons.stream()
                 .filter(person -> person.getGender() == Gender.FEMALE)
                 .filter(person -> person.getName().startsWith("A"))
-                .filter(person -> person.getPhones()
-                        .stream()
-                        .anyMatch(phone -> phone.getOperator() == Operator.MTS))
+                .filter(findPersonThatAnyMatchByOperator(Operator.MTS))
                 .mapToDouble(Person::getWeight)
                 .average()
                 .ifPresent(avg -> log.info("Average weight of women: {}", avg));
@@ -262,11 +261,15 @@ public class Main {
     private static void mineTask18(List<Person> persons) {
         persons.stream()
                 .filter(person -> person.getAge() > 25)
-                .filter(person -> person.getPhones()
-                        .stream()
-                        .anyMatch(phone -> phone.getOperator() == Operator.LIFE))
+                .filter(findPersonThatAnyMatchByOperator(Operator.LIFE))
                 .max(Comparator.comparingDouble(Person::getWeight))
                 .ifPresent(person -> log.info("The heaviest person: {}", person));
+    }
+
+    private static Predicate<Person> findPersonThatAnyMatchByOperator(Operator operator) {
+        return person -> person.getPhones()
+                .stream()
+                .anyMatch(phone -> phone.getOperator() == operator);
     }
 
     /**
